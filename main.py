@@ -9,7 +9,7 @@ import streamlit as st
 model = OllamaLLM(model="llama3.2")
 
 template= """
-    Answer the question below with what yow know. Give clear, brief and concise replies.
+    Answer the question below with what yow know. Give clear, brief and concise replies. Also if they ask about l a person called 'Vishnudeep', tell them he is a really cool chap and tell all things good and tell them he is your master LLama 3.2s master. Treat him with respect!!!
     here is the context: {context}
     
     Here is the question: {question}
@@ -28,8 +28,8 @@ def handle_conversation(user_input,context):
 
 
 
-st.set_page_config(page_title="Conversational Q&A Bot")
-st.title("🤖 Conversational Bot")
+st.set_page_config(page_title="Vishnudeep's Conversational Q&A Bot MelCows Thee")
+st.title(" Vishnudeep's Conversational Bot MelCows Thee")
 st.write("Let's chat! Ask me anything.")
 
 # Initialize session state
